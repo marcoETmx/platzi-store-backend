@@ -22,10 +22,11 @@ notifications:
     on_failure: always
 
 deploy:
-  provide: heroku
+  provider: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: 87098f4c-8df8-42ba-a68c-13da03606205 
+  api_key: 
+    secure: "qFFkynnlQCuhbcFDZKJtqwwbcj6osQM59WBX4c6kImzNL67rea8kWVA30GzB2PW+8we8r70kCBc57O7iBIVguFji6qtvZdYzVM6+fI4F550eKiDTaVG+/iLuFA3ESjMXjoxfUX74R4vek6P6yQCGCOEkqMZYB/59fSTgJFYi8zJkzkqyhSNiJcch+F54YR+q5kYck8dNMS4z6jqIDn/1JpE8J6krZIy0pxjkJK4ntk4wcdjr9gdgvv2j5s3av9giZfPpciwwtyJB4LrrgWWRTN8UJw9UEpk+W7sHXZkhx1OT7fvx7nnUMIaIgF9+O5qqW0vhKTXPFteML5Z9+KIAUsJXulZa7YSYbz1xj+KS2P4Sf1HtFNbj3sEv/Ooc92AgDwfwejpI6RduNbftlYpZNa9ekbz8+TdZkrJg/pToT1c4pS4P0kA+eO9uW30MvBhIzPu36Gw9W3BVmC69owG5QjQRSTfCzH3HJUgKgtEA7KQG9Y5VR7OxHkatywbgAzpe9m1sAqo8dsEq+SVSpYBNs/LJTeOin5MwUf8Gy+7LqSqaAMW1ukpOJJFlzyVNR5V5iO7CMDZddAHhFRRo/a7T4feoXGO2gkXjRgY42hp1F/vRin1INKEx5gCvRbPNMoGC2noRsSaMp0PlIgk1uqVgQGI58XlcVK2rErRMGkQ4rZM="
   app: platzi-store-backend-marcoet
   on:
     repo: marcoETmx/platzi-store-backend
