@@ -16,15 +16,15 @@ script:
 
 notifications:
   email:
-    reciepients:
+    recipients:
       - m.elizalde.torres@gmail.com
     on_success: always
     on_failure: always
 
 deploy:
   provide: heroku
-  skip-cleanup: true
-  keep-history: true
+  skip_cleanup: true
+  keep_history: true
   api_key: 87098f4c-8df8-42ba-a68c-13da03606205 
   app: platzi-store-backend-marcoet
   on:
